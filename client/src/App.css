@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding-top: 5px;
+  height: 98vh;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.app__container {
+  display: block;
+  margin: auto;
+  height: 80vh;
+  width: 60vw;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.app__logo > img {
+  height: 40px;
+  width: 40px;
+}
+
+.app__message {
+  padding: 20px 10px;
+  height: 60vh;
+  background-color: rgb(0, 0, 0);
+  border-radius: 8px;
+  border: 1px solid black;
+  overflow-y: auto;
+}
+
+.app__message__container {
+  color: white;
+  margin: 10px 0;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  min-height: 40px;
+  height: auto;
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: rgb(52, 147, 52);
+  border: 2px solid rgb(52, 147, 52);
+  cursor: default;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+.middle {
+  min-height: 30px;
+  color: black;
+  background-color: rgb(160, 211, 160);
+  border: none;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.app__form {
+  margin: 15px 0;
+}
+
+#inputMessage {
+  width: 40vw;
+  height: 25px;
+  border-radius: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 20px;
+  outline: 0;
+  /* border: 0; */
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  width: 60px;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: rgb(174, 174, 174);
+}
